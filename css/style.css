@@ -1,0 +1,41 @@
+.about-container {
+  background-color: #eeeef4;
+  border-radius: 0.5rem;
+  min-height: 85vh;
+}
+
+.content-container {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  max-height: 85vh;
+  overflow-y: scroll;
+}
+
+.content-container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.content-container {
+  overflow: -moz-scrollbars-none;
+}
+
+.content-container {
+  -ms-overflow-style: none;
+}
+
+@media (max-width:767px) {
+  .about-container {
+    min-height: 25vh;
+  }
+  .content-container {
+    max-height: 200vh;
+  }
+}
+
+.about-color {
+  color: #515769;
+}
+
+.text-color {
+  color: #56575a;
+}
